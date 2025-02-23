@@ -1,0 +1,195 @@
+:root {
+    --mainColor : #092C4C;
+    --secondaryColor : #333333;
+    --acsentColor : #F2994A;
+
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+}
+
+section h1{
+    color: #ffff;
+    font-size: 2.5rem;
+}
+/* Navbar */
+
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+.nav-dark{
+    background-color: var(--secondaryColor) !important;
+    z-index: 10;
+    transition: .8s;
+    
+}
+
+#nav {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+/* End Navbar*/
+
+/*Hero*/
+.color-acsent{
+    color: var(--acsentColor)
+}
+
+#hero {
+    color: #ffff;
+    min-height: 100vh;
+    padding-top: 100px;
+
+}
+
+#hero h1 {
+    font-size: 3rem;
+    
+}
+
+#hero h2 {
+    font-weight: 300;
+    padding-top: 60px;
+}
+
+#hero p {
+    font-size: 1.1;
+    font-weight: 300;
+    
+}
+
+/*cta*/
+
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color : #ffff;
+    min-width: 150px;
+    font-weight: 700;
+    font-size: 1.2rem; 
+}
+.btn-custom1 :hover {
+    box-shadow: 0 0 5px rgb(255, 166, 0, .8);
+}
+
+.cv {
+    color: #ffff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.social-icon svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+    padding-top: 75px;
+
+}
+
+
+/* End Hero*/
+
+/* About */
+hr {
+    width: 35%;
+    height: 4px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 300px;
+    width: auto;
+    background-color: var(--secondaryColor);
+    color: #ffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+/*end About*/
+
+/* Skill */
+
+#skill {
+    min-height: 600px;
+    width: auto;
+    color:#ffff;
+
+}
+
+#skill img {
+    width: 10%;
+    margin :10px;    
+}
+
+#skill .card {
+    background-color: #828282;
+    height: 370px;
+}
+
+#skill .card:hover{
+    background-color: var(--acsentColor);
+}
+
+.skill-konten {
+    margin-top: 120px;
+
+}
+
+/* End Skill */
+
+
+/* sertifikat */
+
+#certificate {
+    margin-top: -170px;
+    padding-top: 270px;
+    padding-bottom: 80px;
+    background-color: var(--secondaryColor);
+}
+
+#certificate p, a {
+    color: #ffff !important;
+    text-decoration: none;
+
+}
+
+#certificate img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+/* End Sertikat */
+
+/* gallery portofolio */
+
+
+.col-md-10 {
+    display: flex;
+    gap: 20px; /* Memberikan jarak antar card */
+    justify-content: center;
+  }
+
+#portofolio .container {
+    padding: 80px 10px;
+}
+
+/* End gallery prtoflio */
+
+/* FOOTER */
+
+
+
+/* END FOOTER */
